@@ -1,2 +1,8 @@
 # fray-documentation-research
-A repository for researching every file about Fray's combat framework for Godot for helping with documentation.
+This documentation is for researching every file of Pyxus's Fray combat framework made for Godot 4.X
+
+Currently, this is a WIP, so not all files are not researched yet.
+
+Later, there will be examples using Fray in this documentation. (or maybe in another repository idk)
+
+The reason i made this is for helping Pyxus document Fray.
