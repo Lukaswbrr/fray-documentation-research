@@ -26,13 +26,16 @@ Children of Composite inputs being virtual has no effect.
 #### Group inputs
 Group inputs are inputs that is accepted as along as it reaches the minimujm amount.
 
-Example:
-	Roman cancel in Guilty Gear (if atleast three of A, B, C, D) are pressed together
+##### Example
+Roman cancel in Guilty Gear (if atleast three of A, B, C, D) are pressed together
 
 #### Simple inputs
 Wrapper around composite inputs for simple inputs.
 
-### Input Frame
+### Input bind
+A input bind is used to map physical device presses to inputs fray input names.
+
+### Input frame
 
 ### Input node
 
@@ -41,8 +44,6 @@ Nodes that are used for which input it can go to next, representing a sequence.
 
 Once the node reaches the last input of sequence, is_match() function is runned to check if all
 inputs did not get their time limit passed by. If not, the sequence is triggered.
-
-
 
 #### Example
 {
