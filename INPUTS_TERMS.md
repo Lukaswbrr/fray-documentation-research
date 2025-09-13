@@ -1,4 +1,16 @@
-### Inputs type
+## Important notes
+### Two controllers
+Due to godot not having a device argument for is_action_pressed and is_key_pressed,
+it will act as if both devices (controller 1 and controller 2) being pressed!
+
+The only workaround is to use game controllers since the functions for that
+has device argument.
+
+The other fix is to implement this manually and make a new class for godot actions
+inputs.
+
+
+## Inputs type
 
 #### Distinct
 A distanct input is a input pressed without any overlapping inputs.
